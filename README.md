@@ -31,12 +31,14 @@ Requisitos
 Para ejecutar este script, necesitas tener instalado Python y la biblioteca nmap en tu sistema. Además, el script realiza pings para verificar la disponibilidad de los hosts antes de proceder con el escaneo.
 Instalación de dependencias
 
-    Instalar Python: Si aún no tienes Python, puedes descargarlo desde aquí.
+   Instalar Python: Si aún no tienes Python, puedes descargarlo desde aquí
+   
+    https://www.python.org/downloads/
 
-    Instalar los requisitos con (pip install -r requirements.txt) Puedes instalar las dependencias de la herramienta 
-    Esta biblioteca se utiliza para interactuar con Nmap desde Python.
+   Instalar los requisitos con (pip install -r requirements.txt) Puedes instalar las dependencias de la herramienta 
+   
 
-    Instalar Nmap: Debes tener Nmap instalado en tu sistema. Puedes descargarlo desde su sitio web oficial: Nmap Download para windows 
+   Instalar Nmap: Debes tener Nmap instalado en tu sistema. Puedes descargarlo desde su sitio web oficial: Nmap Download para windows 
 
 macOS
 Opción 1: Usando Homebrew (Recomendado)
