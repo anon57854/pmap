@@ -22,7 +22,8 @@
           
 Escaner de red pmap
 
-Este es un script de Python que utiliza la biblioteca nmap para realizar diferentes tipos de escaneos a dispositivos en una red. Permite escanear puertos abiertos, identificar servicios, detectar posibles vulnerabilidades y obtener información sobre el sistema operativo de los hosts en la red.
+
+pmap es un script escrito en Python que utiliza la biblioteca nmap para realizar diferentes tipos de escaneos a dispositivos en una red. Permite hacer escaneos desde sencillos a comblejos muy facilmente como escanear puertos abiertos, identificar servicios, detectar posibles vulnerabilidades y obtener información sobre el sistema operativo de los hosts en la red.
 
 
 Requisitos
