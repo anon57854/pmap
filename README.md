@@ -10,14 +10,32 @@ Instalación de dependencias
 
     Instalar Python: Si aún no tienes Python, puedes descargarlo desde aquí.
 
-    Instalar la biblioteca python-nmap: Puedes instalar la biblioteca python-nmap usando pip con el siguiente comando:
-
-    pip install python-nmap
-
+    Instalar los requisitos con (pip install -r requirements.txt) Puedes instalar las dependencias de la herramienta 
     Esta biblioteca se utiliza para interactuar con Nmap desde Python.
 
-    Instalar Nmap: Debes tener Nmap instalado en tu sistema. Puedes descargarlo desde su sitio web oficial: Nmap Download.
+    Instalar Nmap: Debes tener Nmap instalado en tu sistema. Puedes descargarlo desde su sitio web oficial: Nmap Download para windows 
 
+macOS
+Opción 1: Usando Homebrew (Recomendado)
+
+Si tienes Homebrew instalado, puedes instalar nmap con el siguiente comando:
+
+    Primero, asegúrate de tener Homebrew instalado. Si no lo tienes, puedes instalarlo ejecutando este comando en la terminal:
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+Una vez instalado Homebrew, puedes instalar nmap ejecutando:
+
+    brew install nmap
+
+Esto descargará e instalará nmap en tu sistema macOS.
+Opción 2: Usando el instalador de nmap
+
+También puedes descargar e instalar nmap desde el sitio oficial:
+
+    Ve a la página de descargas de nmap.
+    Descarga el archivo .dmg para macOS y sigue las instrucciones de instalación.
+    
 Uso
 
     Clona o descarga el repositorio en tu máquina local.
