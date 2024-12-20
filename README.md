@@ -1,6 +1,8 @@
 Escaner de red - Herramienta de Escaneo con Nmap
 
 Este es un script de Python que utiliza la biblioteca nmap para realizar diferentes tipos de escaneos a dispositivos en una red. Permite escanear puertos abiertos, identificar servicios, detectar posibles vulnerabilidades y obtener información sobre el sistema operativo de los hosts en la red.
+
+
 Requisitos
 
 Para ejecutar este script, necesitas tener instalado Python y la biblioteca nmap en tu sistema. Además, el script realiza pings para verificar la disponibilidad de los hosts antes de proceder con el escaneo.
