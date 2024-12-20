@@ -19,30 +19,62 @@ macOS
 Opción 1: Usando Homebrew (Recomendado)
 
 Si tienes Homebrew instalado, puedes instalar nmap con el siguiente comando:
+ Primero,  asegúrate de tener Homebrew instalado. Si no lo tienes, puedes instalarlo ejecutando este comando en la terminal:
 
-    Primero, asegúrate de tener Homebrew instalado. Si no lo tienes, puedes instalarlo ejecutando este comando en la terminal:
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 Una vez instalado Homebrew, puedes instalar nmap ejecutando:
 
     brew install nmap
 
-Esto descargará e instalará nmap en tu sistema macOS.
+Esto descargara e instalara nmap en tu sistema macOS.
 Opción 2: Usando el instalador de nmap
 
 También puedes descargar e instalar nmap desde el sitio oficial:
 
-    Ve a la página de descargas de nmap.
-    Descarga el archivo .dmg para macOS y sigue las instrucciones de instalación.
+Ve a la página de descargas de nmap.
+Descarga el archivo .dmg para macOS y sigue las instrucciones de instalación.
+
+
+Linux
+Ubuntu / Debian
+
+Abre la terminal y ejecuta el siguiente comando para instalar nmap en sistemas basados en Ubuntu o Debian:
+
+    sudo apt update
+    sudo apt install nmap
+
+Esto instalará nmap desde los repositorios oficiales de Ubuntu o Debian.
+
+Fedora
+
+En Fedora, abre la terminal y usa el siguiente comando para instalar nmap:
+
+    sudo dnf install nmap
+
+Arch Linux
+
+En Arch Linux, puedes instalar nmap usando pacman:
+
+    sudo pacman -S nmap
+
+Verificación de la instalación
+
+Una vez que hayas instalado nmap, puedes verificar que se haya instalado correctamente ejecutando el siguiente comando en la terminal:
+
+    nmap --version
+
+Este comando te mostrará la versión de nmap que has instalado.
+
     
 Uso
 
-    Clona o descarga el repositorio en tu máquina local.
+Clona o descarga el repositorio en tu máquina local.
 
-    Abre una terminal o consola de comandos y navega hasta la carpeta donde se encuentra el archivo escaneo_red.py (o el nombre del archivo que hayas dado al script).
+Abre una terminal o consola de comandos y navega hasta la carpeta donde se encuentra el archivo escaneo_red.py (o el nombre del archivo que hayas dado al script).
 
-    Ejecuta el script con el siguiente comando:
+Ejecuta el script con el siguiente comando:
 
     python escaneo_red.py
 
@@ -54,9 +86,9 @@ Uso
         5. Escaneo Completo SYN (SYN ++ Detallado): Escaneo más profundo que incluye detección de sistema operativo y vulnerabilidades.
         6. Salir: Sale del programa.
 
-    Proceso de escaneo: Después de seleccionar una opción y proporcionar la IP o nombre de host del objetivo, el script realizará un ping para verificar si el host está activo. Luego, se ejecutará el escaneo basado en la opción seleccionada.
+ Proceso de escaneo: Después de seleccionar una opción y proporcionar la IP o nombre de host del objetivo, el script realizará un ping para verificar si el host está activo. Luego, se ejecutará el escaneo basado en la opción seleccionada.
 
-    Resultados: Al finalizar el escaneo, el script mostrará los resultados, que incluyen:
+Resultados: Al finalizar el escaneo, el script mostrará los resultados, que incluyen:
         Estado del host (activo o inactivo).
         Puertos abiertos, servicios y versiones detectadas.
         Información sobre el sistema operativo (si es detectado).
@@ -64,5 +96,5 @@ Uso
 
 Notas Importantes
 
-    Precaución: Asegúrate de tener permiso explícito para escanear las redes y dispositivos. Realizar escaneos no autorizados puede ser ilegal en muchos lugares.
+Precaución: Asegúrate de tener permiso explícito para escanear las redes y dispositivos. Realizar escaneos no autorizados puede ser ilegal en muchos lugares.
     El script está diseñado para ser ejecutado en sistemas Windows, Linux y macOS.
